@@ -1,10 +1,10 @@
 /* Variabler */
 html {
-  --color-page: #f7f7f7;
-  --color-surface: #fff;
-  --color-text: #222;
-  --color-muted: #666;
-  --color-border: #d8d8d8;
+  --color-page: #c94f4f;
+  --color-surface: #4d4545;
+  --color-text: #7cf205;
+  --color-muted: #9df200;
+  --color-border: #dc7e7e;
   --space-05: 0.5rem;
   --space-1: 1rem;
   --space-2: 2rem;
@@ -16,6 +16,11 @@ html {
 
 /* Globalt layout */
 body {
+  background-image: url(./imgs/baggrundevent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   min-height: 100svh;
   display: grid;
