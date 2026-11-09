@@ -300,6 +300,21 @@ main > * {
   color: var(--color-muted);
 }
 
+/* Skjul alle stykkerne på vinylen som standard */
+/* Skjul alle 3 stykker som standard */
+#forste,
+#anden,
+#tredje {
+  display: none;
+}
+
+/* Vis stykket når JavaScript giver det klassen .active */
+#forste.active,
+#anden.active,
+#tredje.active {
+  display: block;
+}
+
 /* Knap/link */
 .button {
   justify-self: start;
@@ -356,7 +371,7 @@ main > * {
   margin: 0;
 }
 
-/* POPOVER WINDOWS */
+/* POPOVER  */
 
 .artist-card::backdrop {
   background: rgba(0, 0, 0, 0);
@@ -402,4 +417,8 @@ main > * {
   border: none;
   font-size: 22px;
   cursor: pointer;
+}
+.event-dato {
+  background-color: #111;
+  width: 200px;
 }
