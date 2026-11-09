@@ -31,26 +31,56 @@
         <p>Indsæt din egen SVG og forbind den med punkterne nedenfor.</p>
       </header>
 
+
+      </details>
+
+
+      </div>
+
       <section class="svg-layout">
-        <div class="svg-placeholder"></div>
+
+
+        <div class="svg-placeholder">
+
+          <div class="svg-placeholder">
+            <svg class="vinyl" viewBox="0 0 1921 1081">
+              <use href="./vinyl.svg#baggrund"></use>
+              <use id="forste" href="./vinyl.svg#forste"></use>
+              <use id="anden" href="./vinyl.svg#anden"></use>
+              <use id="tredje" href="./vinyl.svg#tredje"></use>
+            </svg>
+          </div>
+
+        </div>
 
         <article class="panel">
-          <h2>Udforsk eventet</h2>
+          <h2>TIMETABLE</h2>
           <div class="accordion">
-            <!-- TODO: Lav om til details/summary -->
-            <div class="accordion-item">
-              <h3>Punkt 1</h3>
-              <p>Beskriv første område, aktivitet eller del af dit event.</p>
-            </div>
-            <div class="accordion-item">
-              <h3>Punkt 2</h3>
-              <p>Beskriv andet område, aktivitet eller del af dit event.</p>
-            </div>
-            <div class="accordion-item">
-              <h3>Punkt 3</h3>
-              <p>Beskriv tredje område, aktivitet eller del af dit event.</p>
-            </div>
-          </div>
+            <details class="accordion-item" name="accordion" data-position="forste" id="details-forste">
+              <summary>10-18</summary>
+              <div>
+                her skal der stå noget om hvem der spiller, hvor de er fra og et eller andet finder ud af
+              </div>
+            </details>
+            <div class="accordion">
+              <details class="accordion-item" name="accordion" data-position="anden" id="details-anden">
+                <summary>18-02</summary>
+                <div>
+                  her skal der stå noget om hvem der spiller, hvor de er fra og et eller andet finder ud af
+                </div>
+              </details>
+
+
+              <div class="accordion">
+                <details class="accordion-item" name="accordion" data-position="tredje" id="details-tredje">
+                  <summary>02-10</summary>
+                  <div>
+                    her skal der stå noget om hvem der spiller, hvor de er fra og et eller andet finder ud af
+                  </div>
+
+
+
+
         </article>
       </section>
     </section>
